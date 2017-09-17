@@ -1,0 +1,14 @@
+{
+  "name": "treat",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "server": "firebase serve --only functions,hosting",
+    "start": "cd app; yarn start; cd ..; firebase serve --only functions,hosting",
+    "deploy": "cd app; yarn build; cd ..; firebase deploy"
+  }
+}

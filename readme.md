@@ -1,0 +1,10 @@
+
+# Treat
+
+a simple system to track habits and reward good behavior - built with Firebase and React
+
+## Run local frontend server and backend functions
+yarn start
+
+## Deploy backend and frontend for production
+yarn deploy

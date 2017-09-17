@@ -1,0 +1,102 @@
+window, body, .page {
+  height: 100%
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+a:hover {
+  color: #222;
+  text-decoration: underline;
+}
+
+button {
+  background-color: #fff;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+button:hover {
+  color: #222;
+  border-color: #222;
+}
+
+input {
+  border: 1px solid #000;
+  margin-right: 5px;
+  padding: 2px;
+}
+
+.page {
+  padding: 10px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #000;
+}
+.navbar a {
+  margin-right: 10px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%
+}
+
+.eventButton {
+  padding: 10px;
+  border: 1px solid #000;
+  color: #000;
+  cursor: pointer;
+}
+
+.eventsTable {
+  width: 100%;
+}
+.eventsTableRow {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #888;
+}
+.eventsTableRow * {
+  padding: 10px;
+}
+
+.scoreContainer {
+  text-align: center;
+  padding: 20px;
+  font-weight: 700;
+}
